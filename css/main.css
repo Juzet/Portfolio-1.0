@@ -1,0 +1,47 @@
+body{
+	background-image: url("../images/sun.jpg");
+	background-size: 1366px 768px;
+    background-repeat: no-repeat;
+}
+#body1{
+	background-image: url("../images/ro.jpg");
+}
+#title{
+	text-align: center;
+	color:white;
+	font-size: 30px;
+}
+#second1{
+	text-align: center;
+	color: white;
+	font-size: 20px;
+}
+#box{
+	background-color: black;
+	opacity: 0.8;
+	width: 80px;
+	height: 40px;
+
+}
+#first{
+	padding: 70px ;
+	color:white;
+	font-size: 20px;
+	opacity: 0.8;
+}
+.aboutme{
+	padding: 70px ;
+	color:white;
+	font-size: 20px;
+	opacity: 0.8;
+}
+.link1{
+	margin-left: 30%;
+	text-decoration: none;
+	color: white;
+}
+.link{
+	margin-left: 30%;
+	text-decoration: none;
+	color: white;
+}
