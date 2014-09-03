@@ -3,6 +3,12 @@ body{
 	background-size: 1366px 768px;
     background-repeat: no-repeat;
 }
+#uno{
+	background-image: url("../images/contact.jpg");
+}
+#okay{
+	display:inline-block;
+}
 #body1{
 	background-image: url("../images/ro.jpg");
 }
@@ -29,19 +35,27 @@ body{
 	font-size: 20px;
 	opacity: 0.8;
 }
+#space{
+
+}
 .aboutme{
 	padding: 70px ;
 	color:white;
 	font-size: 20px;
-	opacity: 0.8;
+	opacity: 1.0;
 }
 .link1{
-	margin-left: 30%;
+	margin-left: 20%;
 	text-decoration: none;
 	color: white;
 }
 .link{
-	margin-left: 30%;
+	margin-left: 20.5%;
+	text-decoration: none;
+	color: white;
+}
+.link2{
+	margin-left: 22%;
 	text-decoration: none;
 	color: white;
 }
