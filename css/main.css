@@ -23,7 +23,7 @@ body{
 
 }
 #body1{
-	background-image: url("../images/ro.jpg");
+	background-image: url("../images/holes.png");
 }
 #title{
 	text-align: center;
@@ -32,11 +32,12 @@ body{
 }
 #second1{
 	text-align: center;
-	color: white;
+	color: black;
 	font-size: 20px;
 }
 #fame{
 	text-align: inline-block;
+	color: black;
 }
 #box{
 	background-color: black;
@@ -47,7 +48,7 @@ body{
 }
 #first{
 	padding: 70px ;
-	color:white;
+	color: black;
 	font-size: 20px;
 	opacity: 0.8;
 }
@@ -80,6 +81,29 @@ body{
 	color: black;
 }
 
-.word-spacing {
-	word-spacing: 60px;
+#j{
+	text-align: left;
 }
+#u{
+	text-align: left;
+}
+#z{
+	text-align: left;
+}
+#e{
+	text-align: left;
+}
+
+#t{
+	text-align: left;
+}
+#a{
+	text-align: left;
+}
+#r{
+	text-align: left;
+}
+#a{
+	text-align: left;
+}
+
