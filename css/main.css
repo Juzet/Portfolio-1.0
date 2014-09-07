@@ -4,7 +4,19 @@ body{
     background-repeat: no-repeat;
 }
 #uno{
-	background-image: url("../images/contact.jpg");
+	background-image: url("../images/p.png");
+}
+#contact{
+	background-color: black;
+	width: 700px;
+	height: 500px;
+	margin: 0 auto;
+	color: white;
+	padding-top: 60px;
+	-moz-border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -khtml-border-radius: 20px;
+    border-radius: 20px;
 }
 #okay{
 	display: inline-block;
@@ -39,16 +51,18 @@ body{
 	font-size: 20px;
 	opacity: 0.8;
 }
-/*#space{
-
-}*/
 .aboutme{
-	padding: 70px ;
-	color:#F7FE2E;
+	color: white;
 	font-size: 20px;
-	opacity: 1.0;
-	text-align: left;
-	width: 450px;
+	opacity: 0.7;
+	margin: 0 auto;
+	width: 500px;
+	background-color: black;
+	-moz-border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -khtml-border-radius: 20px;
+    border-radius: 20px;
+    text-align: center;
 }
 .link1{
 	margin-left: 20%;
@@ -61,9 +75,9 @@ body{
 	color: white;
 }
 .link2{
-	margin-left: 22%;
+	margin-left: 20%;
 	text-decoration: none;
-	color: white;
+	color: black;
 }
 
 .word-spacing {
