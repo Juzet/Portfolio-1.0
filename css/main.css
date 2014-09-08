@@ -24,6 +24,7 @@ body{
 }
 #body1{
 	background-image: url("../images/holes.png");
+
 }
 #title{
 	text-align: center;
@@ -106,4 +107,27 @@ body{
 #a{
 	text-align: left;
 }
+#l{
+	text-align: right;
+}
+#o{
+	text-align: right;
+}
+#v{
+	text-align: right;
+}
+#s{
+	text-align: right;
+	font-size:15px;
+}
+
+#w{
+	text-align: right;
+	font-size:15px;
+}
+#l{
+	text-align: right;
+	font-size:15px;
+}
+
 
