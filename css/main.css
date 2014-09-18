@@ -1,7 +1,68 @@
+#home { 
+  /*background: url("../images/facebook.png")  0 no-repeat; */
+  height: 728px;
+  margin: 0; 
+  width: 100%; 
+  max-width: 1920px; 
+  position: relative; 
+  text-align: center;
+
+}
+ 
+#home article { 
+  height: 458px; 
+  position: absolute; 
+  text-align: center; 
+  top: 150px; 
+  width: 100%; 
+}
+ 
+#about { 
+  background: url("../images/sun.jpg")  0 no-repeat; min-height: 1000px; 
+  height: 768px;
+  margin: 0;  
+  width: 100%; 
+  max-width: 1920px; 
+  position: relative; 
+  -webkit-box-shadow: 0 0 50px rgba(0,0,0,0.8);
+  box-shadow: 0 0 50px rgba(0,0,0,0.8);
+
+}
+ 
+#about article { 
+  height: 458px; 
+  position: absolute; 
+  text-align: center; 
+  top: 150px; 
+  width: 100%; 
+}
+
+#next { 
+  background: url("../images/holes.png")  0 no-repeat; min-height: 1000px; 
+  height: 768px; 
+  margin: 0 auto; 
+  width: 100%; 
+  max-width: 1920px; 
+  position: relative; 
+  -webkit-box-shadow: 0 0 50px rgba(0,0,0,0.8);
+  box-shadow: 0 0 50px rgba(0,0,0,0.8);
+  margin: 15% 0;
+}
+ 
+#next article { 
+  height: 458px; 
+  position: absolute; 
+  text-align: center; 
+  top: 150px; 
+  width: 100%; 
+}
 #bodyy{ 
-	background-image: url("../images/sun.jpg");
-	background-size: 1366px 768px;
+	background-image: url("../images/tulips.jpg");
+	background-size: 100%;
     background-repeat: no-repeat;
+    font-size: 50px;
+    color: black;
+
 }
 #toop{
 	font-family: 'Oswald', sans-serif;
@@ -29,16 +90,22 @@
 	display: inline-block;
 
 }
-#body1{
+#new{
+	padding-top: 250px;
+	font-size: 100px;
+	color: yellow;
+}
+/*#body1{
 	background-image: url("../images/holes.png");
 	background-size: 1366px 768px;
-	background-repeat: no-repeat;
+	background-repeat: no-repeat;*/
 }
-#title{
+/*#title{
 	text-align: center;
 	color:white;
-	font-size: 30px;
-}
+	font-size: 50px;
+	margin: 25%;
+}*/
 #second1{
 	text-align: center;
 	color: black;
