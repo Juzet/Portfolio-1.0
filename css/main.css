@@ -188,17 +188,13 @@
 	#aboutme{
 		width:100%;
 	}
-	#carousel-inner{
-		width:100%;
-	}
+
 }
 @media screen and (max-width:320px){
 	#aboutme{
 	width:320px;
 	}
-	#carousel-inner{
-	width:320px;
-	}
+
 }
 
 
