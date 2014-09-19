@@ -1,11 +1,13 @@
 #home { 
   /*background: url("../images/facebook.png")  0 no-repeat; */
+
   height: 728px;
   margin: 0; 
   width: 100%; 
   max-width: 1920px; 
   position: relative; 
   text-align: center;
+  min-height: 208px;
 
 }
  
@@ -37,10 +39,10 @@
   width: 100%; 
 }
 
-#next { 
+/*#next { 
   background: url("../images/holes.png")  0 no-repeat; min-height: 1000px; 
   height: 768px; 
-  margin: 0 auto; 
+  margin: 0 ; 
   width: 100%; 
   max-width: 1920px; 
   position: relative; 
@@ -55,7 +57,7 @@
   text-align: center; 
   top: 150px; 
   width: 100%; 
-}
+}*/
 #bodyy{ 
 	background-image: url("../images/tulips.jpg");
 	background-size: 100%;
@@ -93,7 +95,8 @@
 #new{
 	padding-top: 250px;
 	font-size: 100px;
-	color: yellow;
+	color: pink;
+	wiidth:500px;
 }
 /*#body1{
 	background-image: url("../images/holes.png");
@@ -132,7 +135,7 @@
 	width:385px;
 	margin:3% 36%;
 }
-.aboutme{
+#aboutme{
 	color: white;
 	font-size: 20px;
 	opacity: 0.7;
@@ -181,5 +184,22 @@
 	font-family: 'Lobster', cursive;
 	
 }
+@media screen and (max-width:320px){
+	#aboutme{
+		width:100%;
+	}
+	#carousel-inner{
+		width:100%;
+	}
+}
+@media screen and (max-width:320px){
+	#aboutme{
+	width:320px;
+	}
+	#carousel-inner{
+	width:320px;
+	}
+}
+
 
 
