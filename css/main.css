@@ -1,22 +1,13 @@
-#home { 
-  /*background: url("../images/facebook.png")  0 no-repeat; */
+#page1{
 
-  height: 768px;
-  margin: 0; 
-  width: 100%; 
-  max-width: 1920px; 
-  position: relative; 
-  text-align: center;
-  min-height: 208px;
-
+	background-image: url("../images/tulips.jpg");
+	background-size: 100%;
+    background-repeat: no-repeat;
+    font-size: 50px;
+    color: black;
 }
- 
-#home article { 
-  height: 458px; 
-  position: absolute; 
-  text-align: center; 
-  top: 150px; 
-  width: 100%; 
+#page2{
+     background-image: url("../images/moon.jpg")  0 no-repeat; min-height: 1000px; 	
 }
  
 #about { 
@@ -29,6 +20,7 @@
   -webkit-box-shadow: 0 0 50px rgba(0,0,0,0.8);
   box-shadow: 0 0 50px rgba(0,0,0,0.8);
   background-attachment: fixed;
+  background-size: cover;
 
 }
  
@@ -41,7 +33,7 @@
 }
 
 #next { 
-  /*background: url("../images/yay.jpg")  0 no-repeat; min-height: 1000px; */
+  background: url("../images/yay.jpg")  0 no-repeat; min-height: 1000px; 
   height: 768px; 
   margin: 0 ; 
   width: 100%; 
@@ -58,14 +50,17 @@
   top: 150px; 
   width: 100%; 
 }
-#bodyy{ 
+/*#bodyy{ 
 	background-image: url("../images/tulips.jpg");
 	background-size: 100%;
     background-repeat: no-repeat;
     font-size: 50px;
     color: black;
-
-
+}*/
+#ay{
+	background-image: url("../images/but.jpg");
+	background-repeat: no-repeat;
+	height: 100%;
 }
 #toop{
 	font-family: 'Oswald', sans-serif;
@@ -93,11 +88,16 @@
 	display: inline-block;
 
 }
-#new{
+/*#new{
 	padding-top: 250px;
 	font-size: 100px;
 	color: white;
-	wiidth:500px;
+	width:500px;
+}*/
+h1{
+	color: white;
+	text-align: center;
+	padding-top: 250px;
 }
 /*#body1{
 	background-image: url("../images/holes.png");
@@ -135,12 +135,6 @@
 #carousel-example-generic{
 	width:385px;
 	margin:3% 36%;
-}
-#ay{
-	background-image: url("../images/sun.jpg");
-	background-repeat: no-repeat;
-	height: 100%;
-	margin: 0 auto;
 }
 #aboutme{
 	color: white;
